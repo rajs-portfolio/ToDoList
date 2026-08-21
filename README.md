@@ -61,4 +61,4 @@ If your file has a different name, replace `todo.py` with your Python file name.
 
 ## Author
 
-Made by Raj Sharma as a beginner Python project.
+Made by Raj Sharma.
