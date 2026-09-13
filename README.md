@@ -1,64 +1,100 @@
-# To-Do List (Python)
+# 📝 To-Do List — Python
 
-## About
+A simple **command-line To-Do List application** made with Python.
+It allows you to add, view, and remove tasks. Your tasks are saved in a text file, so they are still available when you run the program again.
 
-This is a simple command-line To-Do List application made using Python. It helps users add, view, and remove tasks. The tasks are saved in a text file, so they are available even after closing the program.
+## ✨ Features
 
-## Features
+* 📋 View all tasks
+* ➕ Add new tasks
+* ❌ Remove tasks
+* 💾 Save tasks in a `tasks.txt` file
+* 🖥️ Simple command-line menu
+* 🌱 Beginner-friendly Python project
 
-* View all tasks
-* Add new tasks
-* Remove completed tasks
-* Save tasks in a `tasks.txt` file
-* Easy to use menu
+## 🛠️ Requirements
 
-## Requirements
+You only need:
 
-* Python 3
+* **Python 3**
 
-## How to Run
+No external libraries are required.
 
-1. Download or clone the project.
-2. Open the project folder in your terminal.
-3. Run the program using:
+## ▶️ How to Run
+
+### 1. Download or Clone the Project
+
+Download the project from GitHub or clone it using Git.
+
+### 2. Open the Project Folder
+
+Open your terminal in the folder where the project is located.
+
+### 3. Run the Program
 
 ```bash
 python todo.py
 ```
 
-If your file has a different name, replace `todo.py` with your Python file name.
+> **Note:** If your Python command is `python3`, use:
 
-## Project Files
+```bash
+python3 todo.py
+```
 
-* `todo.py` - Main Python program
-* `tasks.txt` - Stores all tasks
+If your Python file has a different name, replace `todo.py` with your file name.
 
-## Example
+## 📂 Project Files
+
+```text
+To-Do-List/
+│
+├── todo.py
+└── tasks.txt
+```
+
+* `todo.py` — Main Python program
+* `tasks.txt` — Stores your tasks
+
+## 💻 Example
 
 ```text
 ===== TO-DO LIST =====
+
 1. View Tasks
 2. Add Task
 3. Remove Task
 4. Exit
+
+Enter your choice:
 ```
 
-## What I Learned
+## 📚 What I Learned
 
-* Working with functions
-* Using loops and conditions
-* Reading from and writing to files
-* Using lists in Python
-* Building a simple menu-driven program
+By making this project, I practiced:
 
-## Future Improvements
+* Functions
+* Lists
+* Loops
+* `if-else` conditions
+* File handling
+* Reading and writing text files
+* User input
+* Menu-driven programs
 
-* Mark tasks as completed
-* Edit existing tasks
-* Add task priorities
-* Add due dates
-* Create a graphical user interface (GUI)
+## 🚀 Future Improvements
 
-## Author
+Some features I may add in the future:
 
-Made by Raj Sharma.
+* ✅ Mark tasks as completed
+* ✏️ Edit existing tasks
+* ⭐ Add task priorities
+* 📅 Add due dates
+* 🖥️ Create a GUI version
+* 🔍 Search for tasks
+
+## 👨‍💻 Author
+
+**Raj Sharma**
+
+Made with 🐍 Python.
